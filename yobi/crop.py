@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # read image
-img = cv2.imread("imori_1.jpg")
+img = cv2.imread("/Users/araiken/git-space/Gasyori100knock/assets/imori.jpg")
 H, W, C = img.shape
 
 gt = np.array((47, 41, 129, 103), dtype=np.float32)
